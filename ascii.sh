@@ -8,7 +8,8 @@ CHAR="\e[31m"
 SEPARATOR="\e[1;90m|\e[22m"
 # ##################
 
-sed -e 's/$C/'$(printf "$CHAR")'/g' ascii.txt | \
+cat "`dirname $0`/ascii.txt" |\
+sed -e 's/$C/'$(printf "$CHAR")'/g' | \
 sed -e 's/$HX/'$(printf "$HEX")'/g' | \
 sed -e 's/$T/'$(printf "$SEPARATOR")'/g' | \
 sed -e 's/$D/'$(printf "$DECIMAL")'/g' | \
