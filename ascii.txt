@@ -1,0 +1,33 @@
+$HD$DDec $HXHex $C Char                      $T $DDec $HXHex  $CChar $T $DDec $HXHex  $CChar $T $DDec  $HXHex  $CChar$R
+$D0   $HX00  $C NUL   Null char           $T $D32  $HX20   $CSpace$T $D64  $HX 40  $C  @  $T $D96   $HX 60  $C  ` 
+$D1   $HX01  $C SOH   Start of Heading    $T $D33  $HX21   $C  !  $T $D65  $HX 41  $C  A  $T $D97   $HX 61  $C  a 
+$D2   $HX02  $C STX   Start of Text       $T $D34  $HX22   $C  "  $T $D66  $HX 42  $C  B  $T $D98   $HX 62  $C  b 
+$D3   $HX03  $C ETX   End of Text         $T $D35  $HX23   $C  #  $T $D67  $HX 43  $C  C  $T $D99   $HX 63  $C  c 
+$D4   $HX04  $C EOT   End of Transmission $T $D36  $HX24   $C  $  $T $D68  $HX 44  $C  D  $T $D100  $HX 64  $C  d 
+$D5   $HX05  $C ENQ   Enquiry             $T $D37  $HX25   $C  %  $T $D69  $HX 45  $C  E  $T $D101  $HX 65  $C  e 
+$D6   $HX06  $C ACK   Acknowledgment      $T $D38  $HX26   $C  &  $T $D70  $HX 46  $C  F  $T $D102  $HX 66  $C  f 
+$D7   $HX07  $C BEL   Bell                $T $D39  $HX27   $C  '  $T $D71  $HX 47  $C  G  $T $D103  $HX 67  $C  g 
+$D8   $HX08  $C BS    Back Space          $T $D40  $HX28   $C  (  $T $D72  $HX 48  $C  H  $T $D104  $HX 68  $C  h 
+$D9   $HX09  $C HT    Horizontal Tab      $T $D41  $HX29   $C  )  $T $D73  $HX 49  $C  I  $T $D105  $HX 69  $C  i 
+$D10  $HX0A  $C LF    Line Feed           $T $D42  $HX2A   $C  *  $T $D74  $HX 4A  $C  J  $T $D106  $HX 6A  $C  j 
+$D11  $HX0B  $C VT    Vertical Tab        $T $D43  $HX2B   $C  +  $T $D75  $HX 4B  $C  K  $T $D107  $HX 6B  $C  k 
+$D12  $HX0C  $C FF    Form Feed           $T $D44  $HX2C   $C  ,  $T $D76  $HX 4C  $C  L  $T $D108  $HX 6C  $C  l 
+$D13  $HX0D  $C CR    Carriage Return     $T $D45  $HX2D   $C  -  $T $D77  $HX 4D  $C  M  $T $D109  $HX 6D  $C  m 
+$D14  $HX0E  $C SO    Shift Out / X-On    $T $D46  $HX2E   $C  .  $T $D78  $HX 4E  $C  N  $T $D110  $HX 6E  $C  n 
+$D15  $HX0F  $C SI    Shift In / X-Off    $T $D47  $HX2F   $C  /  $T $D79  $HX 4F  $C  O  $T $D111  $HX 6F  $C  o 
+$D16  $HX10  $C DLE   Data Line Escape    $T $D48  $HX30   $C  0  $T $D80  $HX 50  $C  P  $T $D112  $HX 70  $C  p 
+$D17  $HX11  $C DC1   Device Control 1    $T $D49  $HX31   $C  1  $T $D81  $HX 51  $C  Q  $T $D113  $HX 71  $C  q 
+$D18  $HX12  $C DC2   Device Control 2    $T $D50  $HX32   $C  2  $T $D82  $HX 52  $C  R  $T $D114  $HX 72  $C  r 
+$D19  $HX13  $C DC3   Device Control 3    $T $D51  $HX33   $C  3  $T $D83  $HX 53  $C  S  $T $D115  $HX 73  $C  s 
+$D20  $HX14  $C DC4   Device Control 4    $T $D52  $HX34   $C  4  $T $D84  $HX 54  $C  T  $T $D116  $HX 74  $C  t 
+$D21  $HX15  $C NAK   Negative Ack        $T $D53  $HX35   $C  5  $T $D85  $HX 55  $C  U  $T $D117  $HX 75  $C  u 
+$D22  $HX16  $C SYN   Synchronous Idle    $T $D54  $HX36   $C  6  $T $D86  $HX 56  $C  V  $T $D118  $HX 76  $C  v 
+$D23  $HX17  $C ETB   End of Transmit Blk $T $D55  $HX37   $C  7  $T $D87  $HX 57  $C  W  $T $D119  $HX 77  $C  w 
+$D24  $HX18  $C CAN   Cancel              $T $D56  $HX38   $C  8  $T $D88  $HX 58  $C  X  $T $D120  $HX 78  $C  x 
+$D25  $HX19  $C EM    End of Medium       $T $D57  $HX39   $C  9  $T $D89  $HX 59  $C  Y  $T $D121  $HX 79  $C  y 
+$D26  $HX1A  $C SUB   Substitute          $T $D58  $HX3A   $C  :  $T $D90  $HX 5A  $C  Z  $T $D122  $HX 7A  $C  z 
+$D27  $HX1B  $C ESC   Escape              $T $D59  $HX3B   $C  ;  $T $D91  $HX 5B  $C  [  $T $D123  $HX 7B  $C  { 
+$D28  $HX1C  $C FS    File Separator      $T $D60  $HX3C   $C  <  $T $D92  $HX 5C  $C  \  $T $D124  $HX 7C  $C  | 
+$D29  $HX1D  $C GS    Group Separator     $T $D61  $HX3D   $C  =  $T $D93  $HX 5D  $C  ]  $T $D125  $HX 7D  $C  } 
+$D30  $HX1E  $C RS    Record Separator    $T $D62  $HX3E   $C  >  $T $D94  $HX 5E  $C  ^  $T $D126  $HX 7E  $C  ~ 
+$D31  $HX1F  $C US    Unit Separator      $T $D63  $HX3F   $C  ?  $T $D95  $HX 5F  $C  _  $T $D127  $HX 7F  $C  $ $R
